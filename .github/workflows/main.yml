@@ -51,9 +51,9 @@ jobs:
         #run: touch /usr/local/bin file2.txt
         #run:  touch file2.txt 
         
-      - name: ls
+      #- name: ls
         #run: ls  /usr/local/bin
-        run: ls
+      #  run: ls
         
       #- name: run            
       # run: ./dns

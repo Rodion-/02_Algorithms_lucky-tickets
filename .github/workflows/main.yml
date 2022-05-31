@@ -42,21 +42,7 @@ jobs:
         
       - name: install
         run: cmake --install ./
-                 
-      #- name: touch
-        #run: touch /usr/local/bin seq 100 > file1.txt 
-        #run:  touch file1.txt 
+
+      - name: run            
+        run: ./algo2
         
-      #- name: touch
-        #run: touch /usr/local/bin file2.txt
-        #run:  touch file2.txt 
-        
-      #- name: ls
-        #run: ls  /usr/local/bin
-      #  run: ls
-        
-      #- name: run            
-      # run: ./dns
-        
-      #- name: test  
-      #  run: cmake --build . --target test

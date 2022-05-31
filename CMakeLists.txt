@@ -22,6 +22,4 @@ target_include_directories(algo2 PUBLIC
 target_link_libraries(algo2 -lX11 -lGLU -lGL)
                            	  
 install(TARGETS algo2 DESTINATION bin)
-install(FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h"
-  DESTINATION include
-  )
+

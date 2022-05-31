@@ -18,8 +18,6 @@ add_executable(algo2 main.cpp )
 target_include_directories(algo2 PUBLIC
                            "${PROJECT_BINARY_DIR}"
                            )
-
-target_link_libraries(algo2 -lX11 -lGLU -lGL)
                            	  
 install(TARGETS algo2 DESTINATION bin)
 

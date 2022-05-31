@@ -64,8 +64,8 @@ class Tester
 		
 		while( true )
 		{
-			file1_name = path + (std::string)"/test." + std::to_string( n ) + (std::string)".in";
-			file2_name = path + (std::string)"/test." + std::to_string( n ) + (std::string)".out";
+			file1_name = path + (std::string)"test." + std::to_string( n ) + (std::string)".in";
+			file2_name = path + (std::string)"test." + std::to_string( n ) + (std::string)".out";
 			
 			
 			
@@ -127,7 +127,7 @@ int main ( int argc , char** argv )
 		
 		using namespace std;
 		
-		Tester test( "1.Tickets" , make_unique<Lucky> ( ) );		
+		Tester test( "" , make_unique<Lucky> ( ) );		
 			
 		test.RunTests();
 		
